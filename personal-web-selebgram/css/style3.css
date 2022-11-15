@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    background: black;
+}
+
+.box1{
+    position: absolute;
+    min-height: 85vh;
+    width: 70%;
+    margin-top: 7%;
+    margin-left: 15%;
+    bottom: 0px;
+}
+
+/* ===== this css for top nav only ======== */
+.topnav{
+    margin-right: 15%;
+}
+
+.topnav a{
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding: 14px 35px;
+    margin-top: 2%;
+    font-size: 24pt;
+    font-family: mv boli;
+}
+
+.topnav a:hover{
+    color: #3ef0c3;
+}
+
+.topnav a.nyala{
+    color: #67c5cc;
+}
+
+/* End of Top Nav Animation */
+
+.logo{
+    float: left;
+    width: 20%;
+    position: absolute;
+    margin-top: 10%;
+    
+}
+
+
+
+i{
+    color:white;
+    font-size: 270pt;
+    text-shadow: 0 0 50px #67c5cc,
+                 0 0 100px #67c5cc,
+                 0 0 150px #67c5cc,
+                 0 0 200px #67c5cc;
+    animation: animate 3s linear infinite;                 
+}
+
+@keyframes animate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+/* Form Only */
+.form{
+    float: right;
+    width: 50%;
+    margin-right: 2%;
+    margin-top: 30px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: mv boli;
+  }
+  
+  input[type=submit] {
+    background-color: #ff004f;
+    width: 100%;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #dd0346;
+  }
+
+h1{
+    font-family: mv boli;
+    font-size: 15pt;
+    color: white;
+}

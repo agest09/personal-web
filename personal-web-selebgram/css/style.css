@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    background: black;
+}
+
+.box1{
+    position: absolute;
+    width: 70%;
+    margin-top: 70px;
+    margin-left: 15%;
+}
+
+.dashboard{
+    float: left;
+    width: 40%;
+    margin-top: 2%;
+}
+
+.icons{
+    margin-top: -2%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ===== this css for top nav only ======== */
+.topnav{
+    margin-right: 15%;
+}
+
+.topnav a{
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding: 14px 35px;
+    margin-top: 2%;
+    font-size: 24pt;
+    font-family: mv boli;
+}
+
+.topnav a:hover{
+    color: #3ef0c3;
+}
+
+.topnav a.nyala{
+    color: #67c5cc;
+}
+
+/* End of Top Nav Animation */
+
+.profil h4, h1{
+    color: white;
+    position: absolute;
+    margin-left: 22%;
+}
+
+.profil h1{
+    margin-top: 2%;
+    font-size: 34pt;
+    font-family: mv boli;
+}
+
+.profil h4{
+    margin-top: 7%;
+    font-size: 15pt;
+    font-family: mv boli;
+}
+
+/* icon */
+/* Animation icon IG */ 
+.ig{
+    transition: transform .2s;
+}
+
+.ig:hover{
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+/* Animation icon Youtube */
+.tk{
+    transition: transform .2s;
+}
+
+.tk:hover{
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+* Animation icon Tiktok */
+.yt{
+    transition: transform .2s;
+}
+
+.yt:hover{
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+/* All about text */
+h2{
+    margin-top: 5%;
+    color: #67c5cc;
+    font-size: 48pt;
+    font-family: mv boli;
+}
+h3{
+    color: white;
+    margin-top: -2%;
+    font-size: 36pt;
+    font-family: mv boli;
+}
+
+p{
+    float: right;
+    width: 60%;
+    color: white;
+    font-size: 22pt;
+    font-family: estrangelo edessa;
+}
+
+.word p{
+    margin-top: 3px;
+}
+
+/*Footer */
+footer p{
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: left;
+}
+
+.foot {
+    font-family: serif;
+    font-size: 10pt;
+}

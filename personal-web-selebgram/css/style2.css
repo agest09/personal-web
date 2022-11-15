@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: black;
+}
+
+/* ===== this css for top nav only ======== */
+.topnav{
+    margin-right: 15%;
+}
+
+.topnav a{
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding: 14px 35px;
+    margin-top: 2%;
+    font-size: 24pt;
+    font-family: mv boli;
+}
+
+.topnav a:hover{
+    color: #3ef0c3;
+}
+
+.topnav a.nyala{
+    color: #67c5cc;
+}
+
+/* End of Top Nav Animation */
+
+/* Boarding style */
+.boarding{
+    position: absolute;
+    margin-top: 7%;
+    width: 75%;
+    margin-left: 12%;
+        
+}
+
+.header{
+    text-align: center;
+    color: white;
+}
+
+.header h1{
+    font-family: mv boli;
+    font-size: 38pt;
+}
+
+.header p{
+    font-family: mv boli;
+    font-size: 20pt;
+    margin-top: -3%;
+}
+/* End Of Boarding */
+
+
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 20px 32px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    background-color: #3ef0c3;
+  }
+  
+  .btn.active {
+    background-color: #67c5cc;
+    color: white;
+  }
